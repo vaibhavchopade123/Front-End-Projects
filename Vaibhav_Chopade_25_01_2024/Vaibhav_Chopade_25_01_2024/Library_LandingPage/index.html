@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <h1>Book Store</h1>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="book-list">
+          <h2>Book List</h2>
+          <div class="book-item">
+            <div class="book-info">
+              <div class="book-image">
+                <img src="placeholder.jpg" alt="Book Image">
+              </div>
+              <div class="book-details">
+                <div class="title-author">
+                  <p class="title">Book Title 1</p>
+                  <p class="author">Author 1</p>
+                </div>
+                <p class="description">This book, focusing on cyberthreats and cybersecurity, provides the much needed awareness in the times of growing cybercrime episodes. · Comprehensive treatment of important topic - cybersecurity to help readers understand the implications of cybercrime. · The book provides adequate orientation on laws in reference to cybercrime and cybersecurity taking into account the Indian as well as global scenario. · Awareness created through simple practical tips and tricks, educates readers to learn how to avoid becoming victims of cybercrime. · Written by InfoSec domain SME and co-authored by qualified ethical hacking professional who is also a security certified. · Well-presented case illustrations and examples from real life to underline the significance of topics addressed in each chapter.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- More book items can be added similarly -->
+
+        </section>
+
+        <section class="add-book">
+          <h2>Add New Book</h2>
+          <div class="input-group">
+            <label for="title">Title:</label>
+            <input type="text" id="title" placeholder="Enter title">
+          </div>
+
+          <div class="input-group">
+            <label for="author">Author:</label>
+            <input type="text" id="author" placeholder="Enter author">
+          </div>
+
+          <div class="input-group">
+            <label for="image">Book Image:</label>
+            <input type="file" id="image" accept="image/*">
+          </div>
+
+          <div class="input-group">
+            <label for="description">Description:</label>
+            <textarea id="description" placeholder="Enter description"></textarea>
+          </div>
+
+          <button onclick="addBook()">Add Book</button>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Modern Library. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
