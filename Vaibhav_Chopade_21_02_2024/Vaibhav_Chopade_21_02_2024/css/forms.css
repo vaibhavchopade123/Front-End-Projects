@@ -1,0 +1,99 @@
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+
+
+.grid-container {
+   width: 1300px;
+    margin: 20px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem 20rem;
+    grid-template-rows: 10rem 10rem ;
+    background-color: rgb(33, 34, 35);
+     border: 20px solid blanchedalmond;
+     border-radius: 40px;
+     box-shadow: 10px 10px 10px black;
+}
+h2{
+    margin-left: 50px;
+    color: black;
+    font-size: 40px;
+}
+
+.grid-box{
+   
+    color: aliceblue;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin:20px;
+    border-radius: 30px;
+   padding: 1rem;
+   border: 10px solid blanchedalmond;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 3px 3px 10px rgb(193, 230, 112);
+   
+    }
+
+    .border{
+        width:max-content;
+        padding: 20px;
+        margin: 100px auto;
+        border: 20px solid blanchedalmond;
+        border-radius: 10px;
+        box-shadow:  inset 10px 10px 100px 20px rgb(17, 17, 17);
+       background: transparent;
+       filter: drop-shadow(20px 20px 5px rgb(17, 15, 14));
+       
+    }
+
+    button{
+        color: blanchedalmond;
+        margin-left: 30px;
+        margin: 40px;
+        background-color: rgb(18, 19, 16);
+        
+        height: 50px;
+        width: 200px;
+        border: 5px solid blanchedalmond;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px black;
+        
+        transition: all ease-in-out 0.6s;
+        
+    }
+
+    button:hover{
+        color: black;
+        background-color: bisque;
+        
+        cursor: pointer;
+        box-shadow: 10px 10px 20px rgb(45, 46, 33);
+        border: 5px solid black;
+        scale: 1.03;
+    }
+    input{
+        border-radius: 5px;
+        background-color: blanchedalmond;
+    }
+    select{
+        border-radius: 5px;
+        background-color: blanchedalmond;
+    }
+    textarea{
+        border-radius: 5px;
+        background-color: blanchedalmond;
+    }
+
+         
+ 

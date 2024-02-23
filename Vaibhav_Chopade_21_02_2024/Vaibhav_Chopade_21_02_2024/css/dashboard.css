@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+body {
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+h1,
+h2 {
+    color: rgb(116, 100, 79);
+}
+h3 {
+    color: blanchedalmond;
+}
+.btn {
+    background: #f05462;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+.btn:hover {
+    color: black;
+    background: blanchedalmond;
+    padding: 3px 8px;
+    border: 2px solid #0c0c0c;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-bottom: 2px solid blanchedalmond;
+}
+table {
+    padding: 10px;
+}
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    
+}
+.container .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 10vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.container .header .nav {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .header .nav .search {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .header .nav .search input[type=text] {
+    border: none;
+    color: #0c0c0c;
+    background: blanchedalmond;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .header .nav .user {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.container .content {
+    position: relative;
+    margin-top: 10vh;
+    min-height: 90vh;
+    background: transparent;
+}
+.container .content .cards {
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .content .cards .card {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(33, 34, 35);
+     border: 20px solid blanchedalmond;
+     border-radius: 40px;
+     box-shadow: 10px 10px 10px black;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+.container .content .content-2 {
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.container .content .content-2 .recent-payments {
+    color: blanchedalmond;
+    min-height: 50vh;
+    flex: 5;
+    background-color: rgb(33, 34, 35);
+     border: 20px solid blanchedalmond;
+     border-radius: 40px;
+     box-shadow: 10px 10px 10px black;
+    margin: 0 25px 25px 25px;
+      display: flex;
+    flex-direction: column;
+}
+.container .content .content-2 .new-students {
+    color: blanchedalmond;
+    flex: 2;
+    background-color: rgb(33, 34, 35);
+     border: 20px solid blanchedalmond;
+     border-radius: 40px;
+     box-shadow: 10px 10px 10px black;
+    min-height: 50vh;
+    margin: 0 25px;
+      display: flex;
+    flex-direction: column;
+}
+.container .content .content-2 .new-students table td:nth-child(1) img {
+    height: 40px;
+    width: 40px;
+}
+
+
+@media screen and (max-width:536px) {
+    .brand-name h1 {
+        font-size: 16px;
+    }
+    .container .content .cards {
+        justify-content: center;
+    }
+ 
+    .container .content .content-2 .recent-payments table th:nth-child(2),
+    .container .content .content-2 .recent-payments table td:nth-child(2) {
+        display: none;
+    }
+}

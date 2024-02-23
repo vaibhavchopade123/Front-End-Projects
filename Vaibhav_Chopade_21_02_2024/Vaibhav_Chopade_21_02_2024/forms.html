@@ -1,0 +1,304 @@
+<link rel="stylesheet" href="./css/forms.css">
+<video id="background-video" src="background.mp4" autoplay
+  loop playsinline muted></video>
+
+<body>
+  <div class="heading" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  margin-top: 50px; font-size: 40px; display: flex;
+        justify-content: center; 
+        align-items: center;filter: drop-shadow(2px 3px 0.5px rgb(17, 15, 14)); "><strong>BRANCH : Sanjivani College of Engineering, Kopargaon</strong></div>
+
+  <div class="border">
+    <h2><strong>Staff Details : </strong></h2>
+    <div class="grid-container">
+      <div class="grid-box">
+
+        <label for="employmentStatus" style="font-size: 16px; margin: 15px;">Employment Status:</label>
+        <select id="employmentStatus" style="font-size: 15px; " name="employmentStatus">
+          <option value="Temporary">Temporary</option>
+          <!-- Add more options here  -->
+        </select>
+
+      </div>
+
+
+      <div class="grid-box" style="font-size: 16px; display: flex;">
+
+        <label for="Staff Type">Staff Type:</label>
+        <div>
+          <input type="radio" id="sg" name="sg" value="sg" checked />
+          <label for="sg" style="font-size: 14px; margin-right: 10px;">Teaching</label>
+        </div>
+
+        <div>
+          <input type="radio" id="Non Teaching" name="sg" value="Non_Teaching" />
+          <label for="Non_Teaching" style="font-size: 14px;">Non Teaching</label>
+        </div>
+
+        <div>
+          <input type="radio" id="Transport" name="sg" value="Transport" />
+          <label for="Transport" style="font-size: 14px;">Transport</label>
+        </div>
+
+
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Staff Department" style="font-size: 16px; margin: 15px;">Staff Department</label>
+        <select id="Staff Department" name="Staff Department" style="font-size: 15px; ">
+          <option value="Staff Department">Select Department :</option>
+          <!-- Add more options here -->
+        </select>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Employment Category" style="font-size: 16px; margin: 15px;">Employment Category:</label>
+        <select id="Employment Category" name="Employment Category" style="font-size: 15px; ">
+          <option value="Employment Category">Select Category</option>
+          <!-- Add more options here -->
+        </select>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Designation" style="font-size: 16px; margin: 15px;">Designation:</label>
+        <select id="Designation" name="Designation" style="font-size: 15px; ">
+          <option value="Designation">Select Department</option>
+          <!-- Add more options here -->
+        </select>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Qualification_Type" style="font-size: 16px; margin: 15px;">Qualification Type:</label>
+        <select id="Qualification_Type" name="Qualification_Type" style="font-size: 15px; ">
+          <option value="Qualification_Type">Select Qualification</option>
+          <!-- Add more options here  -->
+        </select>
+
+      </div>
+      <div class="grid-box">
+
+        <label for="Education_Qualification" style="font-size: 16px; margin: 15px;">Education Qualification:</label>
+        <select id="Education_Qualification" name="Education_Qualification" style="font-size: 15px; ">
+          <option value="Education_Qualification">Select Qualification</option>
+          <!-- Add more options here -->
+        </select>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Trained_as" style="font-size: 16px; margin: 15px;">Trained as:</label>
+        <select id="Trained_as" name="Trained_as" style="font-size: 15px; ">
+          <option value="Trained_as">Select Level</option>
+          <!-- Add more options here  -->
+        </select>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Access_level" style="font-size: 16px; margin: 15px;">Access level:</label>
+        <select id="Access_level" name="Access_level" style="font-size: 15px; ">
+          <option value="Access_level">Select Access Level</option>
+          <!-- Add more options here  -->
+        </select>
+
+      </div>
+
+      <div class="grid-box" style="font-size: 17px; display: flex;">
+        <label for="CTET_Qualified">CTET Qualified:</label>
+        <div>
+          <input type="radio" id="CTET_Qualifiedyes" name="sg" value="CTET_Qualifiedyes" />
+          <label for="CTET_Qualifiedyes" style="font-size: 14px;">Yes</label>
+        </div>
+
+        <div>
+          <input type="radio" id="CTET_Qualifiedno" name="sg" value="CTET_Qualifiedno" />
+          <label for="CTET_Qualifiedno" style="font-size: 14px;">No</label>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- next cont -->
+    <h2><strong>Personal Details : </strong></h2>
+    <div class="grid-container">
+      <div class="grid-box">
+
+        <label for="First_Name" style="font-size: 16px; margin: 15px;">First Name:</label>
+        <input type="text" id="First_Name" name="First_Name" required>
+
+      </div>
+
+
+      <div class="grid-box">
+
+        <label for="Middle_Name" style="font-size: 16px; margin: 15px;">Middle Name:</label>
+        <input type="text" id="Middle_Name" name="Middle_Name" required>
+
+      </div>
+      <div class="grid-box">
+
+        <label for="Last_Name" style="font-size: 16px; margin: 15px;">Last Name</label>
+        <input type="text" id="Last_Name" name="Last_Name" required>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Mobile_No" style="font-size: 16px; margin: 15px;">Mobile No.:</label>
+        <input placeholder="+91 XXXXX XXXXX" type="text" id="Mobile_No" name="Mobile_No" required>
+
+      </div>
+
+
+      <div class="grid-box">
+
+        <label for="Emergency" style="font-size: 16px; margin: 15px;">Emergency Contact No.:</label>
+        <input placeholder="+91 XXXXX XXXXX" type="text" id="Emergency" name="Emergency" required>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Gender" style="font-size: 16px; margin: 15px;">Gender:</label>
+        <div>
+          <input type="radio" id="Genderm" name="Genderm" value="Genderm" checked />
+          <label for="Genderm" style="font-size: 14px;">male</label>
+        </div>
+
+        <div>
+          <input type="radio" id="Genderf" name="sg" value="Genderf" />
+          <label for="Genderf" style="font-size: 14px;">female</label>
+        </div>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Enter_DOB" style="font-size: 16px; margin: 15px;">Enter DOB:</label>
+        <input placeholder="dd-mm-yyyy" type="text" id="Enter_DOB" name="dob" required
+          pattern="[0-31]{2}-[0-12]{2}-[0-2024]{4}">
+
+      </div>
+      <div class="grid-box">
+
+        <label for="mail" style="font-size: 16px; margin: 15px;">Email Id:</label>
+        <input placeholder="eg:info@nemetry.in" type="email" id="Enter_DOB" name="Enter_DOB" required>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="padrs" style="font-size: 16px; margin: 15px;">Permanent Address:</label>
+        <textarea id="padrs" name="padrs" required></textarea>
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="cadrs" style="font-size: 16px; margin: 15px;">Corresponding Address:</label>
+        <textarea id="cadrs" name="cadrs"></textarea>
+
+      </div>
+
+      <div class="grid-box" style="font-size: 17px; display: flex;">
+        <label for="Religion">Religion:</label>
+        <select id="Religion" name="Religion" required>
+          <option value="Hindu">Hindu</option>
+
+        </select>
+
+      </div>
+
+    </div>
+
+
+
+
+    <!-- another cont -->
+    <h2><strong>Other Details : </strong></h2>
+    <div class="grid-container">
+      <div class="grid-box">
+
+        <label for="Adhar" style="font-size: 16px; margin: 15px;">Adhar No.:</label>
+        <input type="text" id="Adhar" name="Adhar" required>
+
+      </div>
+
+
+      <div class="grid-box">
+
+        <label for="Pan" style="font-size: 16px; margin: 15px;">Pan No.:</label>
+        <input type="text" id="Pan" name="Pan" required>
+
+      </div>
+      <div class="grid-box">
+
+        <label for="Date_Of_Joining" style="font-size: 16px; margin: 15px;">Date Of Joining:</label>
+        <input placeholder="dd-mm-yyyy" type="text" id="Date_Of_Joining" name="Date_Of_Joining" required
+          pattern="[0-31]{2}-[0-12]{2}-[0-2024]{4}">
+
+
+      </div>
+
+      <div class="grid-box">
+
+        <label for="Staff_Reference" style="font-size: 16px; margin: 15px;">Staff Reference Code:</label>
+        <input type="text" id="Staff_Reference" name="Staff_Reference" required>
+
+      </div>
+
+      <div class="grid-box" style="width: 110%;">
+
+        <label for="salary_Pay_Type" style="font-size: 16px; margin: 15px;">salary Pay Type:</label>
+        <div>
+          <input type="radio" id="salary_Pay_TypeC" name="sg" value="salary_Pay_TypeC" checked />
+          <label for="salary_Pay_TypeC" style="font-size: 14px;">Consolidate</label>
+        </div>
+
+        <div>
+          <input type="radio" id="salary_Pay_Typep" name="sg" value="salary_Pay_Typep" />
+          <label for="salary_Pay_Typep" style="font-size: 14px;">PAY</label>
+        </div>
+
+        <div>
+          <input type="radio" id="salary_Pay_Typeo" name="sg" value="salary_Pay_Typeo" />
+          <label for="salary_Pay_Typeo" style="font-size: 14px;">Other</label>
+        </div>
+
+      </div>
+
+      <div class="grid-box" style="margin-left: 40%; width:103%;">
+
+        <label for="G_ID" style="font-size: 16px; margin: 15px;">Government ID/Resident Id:</label>
+        <input type="text" id="G_ID" name="G_ID" required>
+
+      </div>
+      <div class="grid-box" style="margin-left: 70%; ">
+
+        <label for="Citizenship" style="font-size: 16px; margin: 15px;">Citizenship</label>
+        <select id="Citizenship" name="Citizenship" style="font-size: 15px; ">
+          <option value="Citizenship">Indian</option>
+
+        </select>
+      </div>
+
+
+
+    </div>
+
+    <button> Save & Continue</button>
+
+  </div>
+
+</body>
